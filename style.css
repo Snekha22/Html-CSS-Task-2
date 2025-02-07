@@ -1,0 +1,65 @@
+body{
+    display: block;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.required{
+    color: red;
+}
+
+.name-inputs{
+    display: flex;
+    gap: 10px;
+
+}
+
+input[type="text"], input[type="email"], textarea{
+   
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+.star-rating{
+    font-size: 25px;
+    color: rgb(240, 174, 51);
+}
+
+table{
+   
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(192, 188, 188);
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(72, 15, 15);
+}
+
+textarea{
+   
+    height: 80px;
+    margin-top: 5px;
+}
+
+button{
+    background-color: rgb(144, 142, 145);
+    color: rgb(41, 37, 32);
+    padding: 10px;
+    border: navajowhite;
+
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: brown;
+}
